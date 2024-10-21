@@ -1,10 +1,12 @@
-package software.ulpgc.kata2;
+package software.ulpgc.kata2.consistency;
+
+import software.ulpgc.kata2.model.Title;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FileTitleLoader implements TitleLoader{
+public class FileTitleLoader implements TitleLoader {
 
     private final File file;
     private final TitleDeserializer titleDeserializer;

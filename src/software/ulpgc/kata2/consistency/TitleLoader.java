@@ -1,6 +1,7 @@
-package software.ulpgc.kata2;
+package software.ulpgc.kata2.consistency;
 
-import java.io.FileNotFoundException;
+import software.ulpgc.kata2.model.Title;
+
 import java.io.IOException;
 import java.util.List;
 

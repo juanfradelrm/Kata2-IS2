@@ -1,6 +1,8 @@
-package software.ulpgc.kata2;
+package software.ulpgc.kata2.consistency;
 
-public class TsvTitleDeserializer implements  TitleDeserializer{
+import software.ulpgc.kata2.model.Title;
+
+public class TsvTitleDeserializer implements TitleDeserializer {
     @Override
     public Title deserialize(String line) {
         return deserialize(line.split("\t"));

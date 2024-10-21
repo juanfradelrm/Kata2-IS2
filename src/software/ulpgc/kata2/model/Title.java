@@ -1,4 +1,4 @@
-package software.ulpgc.kata2;
+package software.ulpgc.kata2.model;
 
 public class Title {
     private final String name;
